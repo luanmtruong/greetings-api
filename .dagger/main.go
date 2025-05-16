@@ -28,10 +28,10 @@ func New(
 	// +ignore=[".git", "**/node_modules"]
 	source *dagger.Directory,
 	// +optional
-	// +default="github.com/kpenfound/greetings-api"
+	// +default="github.com/luanmtruong/greetings-api"
 	repo string,
 	// +optional
-	// +default="kylepenfound/greetings-api:latest"
+	// +default="luanmtruong/greetings-api:latest"
 	image string,
 	// +optional
 	// +default="dagger-demo"
